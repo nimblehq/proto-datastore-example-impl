@@ -1,12 +1,15 @@
 # Git Repository Template
 
-Project repository template to set up all public projects at [Nimble](https://nimblehq.co/)
-
 ## Usage
 
-Clone the repository
+Clone the repository and build.
 
-`git clone git@github.com:nimblehq/git-template.git`
+## Validate pb file
+- Use File Explorer or adb shell with root access to the path:
+`data/data/co.nimblehq.datastore/files/datastore/user_prefs.pb`
+
+- Now you can parse the protobuf (.pb) file to reveal the content, or you can check with this:
+https://protogen.marcgravell.com/decode 
 
 ## License
 

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">datastore-sample</string>
+    <string name="username_hint">Username</string>
+    <string name="favorite_color_hint">Favorite Color</string>
+    <string name="favorite_number_hint">Favorite Number</string>
+    <string name="register">Register</string>
+
+    <string name="register_success_message">You have registered successfully!</string>
+    <string name="username_title">Your username: %s</string>
+    <string name="favorite_color_title">Your favorite color: %s</string>
+    <string name="favorite_number_title">Your favorite number: %d</string>
+</resources>

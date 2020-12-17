@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/checkMarkImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/ic_successful" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/AppTextView.Bold.Medium"
+        android:id="@+id/loginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/register_success_message"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/AppTextView.Regular.Medium"
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        tools:text="Name" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/AppTextView.Regular.Medium"
+        android:id="@+id/tvFavoriteColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        tools:text="Color" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/AppTextView.Regular.Medium"
+        android:id="@+id/tvFavoriteNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        tools:text="Number" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

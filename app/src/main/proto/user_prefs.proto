@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "co.nimblehq.datastore";
+option java_multiple_files = true;
+
+message UserPreference {
+  string username = 1;
+  string favorite_color = 2;
+  int32 favorite_number = 3;
+  bool is_login = 4;
+}
