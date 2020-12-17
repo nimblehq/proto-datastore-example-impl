@@ -1,4 +1,4 @@
-# Git Repository Template
+# Proto Datastore example
 
 ## Usage
 
